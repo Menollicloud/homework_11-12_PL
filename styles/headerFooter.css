@@ -1,0 +1,142 @@
+.header {
+    padding: 34px 0 25px 0;
+    border-bottom: 2px solid #CCCCCC;
+    background-color: #fff;    
+}
+
+.header__inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;    
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+}
+
+.nav__link {
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+}
+
+.main__button {
+    display: flex;
+    gap: 10px;    
+}
+
+.login__btn {
+    width: 120px;
+    height: 45px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 16px;       
+}
+
+.login__btn:hover {
+    transform: scale(0.9);
+}
+
+.free__btn {
+    width: 120px;
+    height: 45px;
+    background: #FF6336;
+    border:#FF6336 ;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;        
+}
+
+.free__btn:hover {
+    transform: scale(0.9);
+}
+
+/* footer */
+
+.footer {
+    background: #EEEEEE;
+    padding-top: 92px;
+    padding-bottom: 43px;
+}
+
+.footer__inside {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 95px;
+    border-bottom: 1px solid #000000;
+}
+
+.footer__case {
+    max-width: 300px;
+}
+
+.footer__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 28px;
+}
+
+.footer__img {
+    display: block;
+    margin-bottom: 31px;
+}
+
+.footer__case-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+.footer__case-link {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer__item-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px; 
+    margin-bottom: 21px;
+}
+
+.footer__item-text + .footer__item-text {
+    margin-top: 15px;
+}
+
+.footer__item-link {
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+
+.footer__lokalise {
+    display: flex;
+    gap: 14px;
+}
+
+.footer__bottom-text {
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 301px;
+}
+
+.footer__copyright-text {
+    font-size: 12px;
+    line-height: 15px;
+}
